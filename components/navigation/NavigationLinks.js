@@ -1,7 +1,7 @@
 const navLinks = [
     {
         name: "Home",
-        path: "/"
+        path: "#Home"
     },
     {
         name: "About",
