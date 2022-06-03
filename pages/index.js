@@ -1,5 +1,6 @@
 import { Box } from '@chakra-ui/react'
 import Head from 'next/head'
+import AboutSection from '../components/about/AboutSection'
 import HomeSection from '../components/home/HomeSection'
 import NavigationBar from '../components/navigation/NavigationBar'
 
@@ -12,7 +13,8 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
       </Head>
       <NavigationBar />
-      <Box py={["10rem", "10rem", "10rem", "0", "0"]}><HomeSection /></Box>
+      <Box><HomeSection /></Box>
+      <Box bg={["none", "none", "none", "white", "white"]}><AboutSection /></Box>
     </div>
   )
 }

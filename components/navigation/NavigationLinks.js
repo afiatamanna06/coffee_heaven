@@ -5,7 +5,7 @@ const navLinks = [
     },
     {
         name: "About",
-        path: "/"
+        path: "#About"
     },
     {
         name: "Menu",
