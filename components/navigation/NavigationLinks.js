@@ -9,7 +9,7 @@ const navLinks = [
     },
     {
         name: "Menu",
-        path: "/"
+        path: "#Menu"
     },
     {
         name: "Gallery",
