@@ -13,10 +13,12 @@ export default function Home() {
         <meta name="description" content="" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <NavigationBar />
-      <Box><HomeSection /></Box>
-      <Box bg={["none", "none", "none", "white", "white"]}><AboutSection /></Box>
-      <FacilitiesSection />
+      <Box>
+        <NavigationBar />
+        <Box><HomeSection /></Box>
+        <Box bg={["none", "none", "none", "white", "white"]}><AboutSection /></Box>
+        <Box bg={["rgba(255, 255, 255, .3)"]}><FacilitiesSection /></Box>
+      </Box>
     </div>
   )
 }
