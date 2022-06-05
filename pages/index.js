@@ -6,6 +6,7 @@ import ContactSection from '../components/contact/ContactSection'
 import HomeSection from '../components/home/HomeSection'
 import MenuSection from '../components/menu/MenuSection'
 import NavigationBar from '../components/navigation/NavigationBar'
+import TeamSection from '../components/team/TeamSection'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Box bg={["none", "none", "none", "white", "white"]}><AboutSection /></Box>
         <Box bg={["rgba(255, 255, 255, .3)"]}><FacilitiesSection /></Box>
         <Box bg={["white"]}><MenuSection /></Box>
+        <Box bg={["rgba(190, 156, 121, .55)"]}><TeamSection /></Box>
         <Box bg={["rgba(255, 255, 255, .3)"]}><ContactSection /></Box>
       </Box>
     </div>

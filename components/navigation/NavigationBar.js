@@ -18,7 +18,7 @@ function NavigationBar() {
         <Flex alignItems={["start", "start", "start", "center", "center"]} display={[responsiveDisplay, responsiveDisplay, responsiveDisplay, "flex", "flex"]} direction={["column", "column", "column", "row", "row"]}>
             {navLinks.map(({name, path}) => (
                 <Link key={name} href={path} passHref>
-                    <Box ml={["0", "0", "0", "8", "8"]} fontFamily="'Merienda One', cursive" cursor="pointer" fontWeight={["normal", "normal", "normal", "bold", "bold"]} fontSize={["4xl", "4xl", "4xl", "lg", "lg"]} color="white" _hover={{ color: ["rgba(120, 91, 58, .8)"] }}>{name}</Box>
+                    <Box ml={["0", "0", "0", "8", "8"]} fontFamily="'Merienda One', cursive" cursor="pointer" fontWeight={["normal", "normal", "normal", "bold", "bold"]} fontSize={["4xl", "4xl", "4xl", "lg", "lg"]} color="white" _hover={{ color: ["rgba(190, 156, 121, 1)"] }}>{name}</Box>
                 </Link>
             ))}
         </Flex>
