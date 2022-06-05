@@ -4,7 +4,7 @@ import teamData from "./TeamData"
 
 function TeamSection() {
   return (
-    <Flex as={Center} flexDir="column" py="16" px="4">
+    <Flex as={Center} flexDir="column" py="16" px="4" id="Team">
         <Header title="Our Team" color={["rgba(255, 255, 255, 1)"]} />
         <Grid templateColumns={["repeat(1, 1fr)", "repeat(1, 1fr)", "repeat(3, 1fr)", "repeat(3, 1fr)", "repeat(3, 1fr)"]} alignItems="center" maxW="80rem" mt="2" columnGap={["2"]} rowGap={["2"]}>
           {teamData.map(({image, title}) => (

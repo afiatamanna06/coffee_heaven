@@ -13,11 +13,11 @@ const navLinks = [
     },
     {
         name: "Gallery",
-        path: "/"
+        path: "#Gallery"
     },
     {
         name: "Team",
-        path: "/"
+        path: "#Team"
     },
     {
         name: "Contact",
