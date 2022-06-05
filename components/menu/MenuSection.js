@@ -4,7 +4,7 @@ import menuData from './MenuData'
 
 function MenuSection() {
   return (
-    <Box py="20" id="Menu">
+    <Box pb="28" pt="28" id="Menu">
         <Header title="Popular Menu" color={["#333"]} />
         <Flex
             mt="10"
