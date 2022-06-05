@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <Box>
         <NavigationBar />
-        <Box bg={["rgba(0, 0, 0, .3)"]}><HomeSection /></Box>
+        <Box><HomeSection /></Box>
         <Box bg={["rgba(0, 0, 0, .3)"]}><AboutSection /></Box>
         <Box bg={["rgba(0, 0, 0, .6)"]}><FacilitiesSection /></Box>
         <Box bg={["white"]}><MenuSection /></Box>
