@@ -13,7 +13,7 @@ function NavigationBar() {
           <Link href="/" passHref>
             <Image cursor="pointer" src="/logo.png" w="50px" h="50px" alt="" />
           </Link>
-          <IconButton aria-label="" icon={<FiMenu />} variant="ghost" display={["flex", "flex", "flex", "none", "none"]} onClick={() => {responsiveDisplay === "none" ? setResponsiveDisplay("flex") : setResponsiveDisplay("none")}} />
+          <IconButton aria-label="" icon={<FiMenu size={25} />} variant="ghost" display={["flex", "flex", "flex", "none", "none"]} onClick={() => {responsiveDisplay === "none" ? setResponsiveDisplay("flex") : setResponsiveDisplay("none")}} borderRadius="none" _focus={{ outline: "none", bg: "rgba(255, 255, 255, .05)", border: "1px", borderColor: "rgba(190, 156, 121, 1)" }} />
         </Flex>
         <Flex alignItems={["start", "start", "start", "center", "center"]} display={[responsiveDisplay, responsiveDisplay, responsiveDisplay, "flex", "flex"]} direction={["column", "column", "column", "row", "row"]}>
             {navLinks.map(({name, path}) => (
