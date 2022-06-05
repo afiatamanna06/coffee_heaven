@@ -10,7 +10,7 @@ function AboutSection() {
                 <Heading mb="6" textAlign={["start"]} fontFamily="'Merienda One', cursive" color={["white"]} fontSize={["2xl", "2xl", "2xl", "6xl", "6xl"]}>A Cup Of Coffee Can Complete Your Day</Heading>
                 <Box mb="4" textAlign={["start"]} fontSize={["md", "md", "md", "lg", "lg"]} color={["white"]}>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Veniam Suscipit Sunt Repellendus, Dolorum Recusandae Placeat Quae. Iste Eaque Aspernatur, Animi Deleniti Voluptas, Sunt Molestias Eveniet Sint Consectetur Facere A Ex.</Box>
                 <Link href="#Menu">
-                  <Button bg="rgba(190, 156, 121, 1)" w="8rem" borderRadius="none" _focus={{ outline: "none" }} _hover={{ bg: "rgba(190, 156, 121, .5)" }}>Our Menu</Button>
+                  <Button bg="rgba(190, 156, 121, 1)" color="white" w="8rem" borderRadius="none" _focus={{ outline: "none" }} _hover={{ bg: "rgba(190, 156, 121, .5)" }}>Our Menu</Button>
                 </Link>
             </Flex>
         </Grid>

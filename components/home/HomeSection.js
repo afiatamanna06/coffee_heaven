@@ -9,7 +9,7 @@ function HomeSection() {
             <Heading textAlign="center" mb="2" fontFamily="'Merienda One', cursive" color={["#333"]} fontSize={["6xl"]}>Coffee Heaven</Heading>
             <Box textAlign="center" mb="4" fontSize={["lg"]} color={["#333"]}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut officia, accusantium mollitia laudantium dolorum dolore.</Box>
             <Link href="#About">
-              <Button bg="rgba(190, 156, 121, 1)" w="8rem" borderRadius="none" _focus={{ outline: "none" }} _hover={{ bg: "rgba(190, 156, 121, .5)" }}>About Us</Button>
+              <Button bg="rgba(190, 156, 121, 1)" color="white" w="8rem" borderRadius="none" _focus={{ outline: "none" }} _hover={{ bg: "rgba(190, 156, 121, .5)" }}>About Us</Button>
             </Link>
         </Flex>
     </Box>
