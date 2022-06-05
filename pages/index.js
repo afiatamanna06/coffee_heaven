@@ -19,13 +19,13 @@ export default function Home() {
       </Head>
       <Box>
         <NavigationBar />
-        <Box><HomeSection /></Box>
-        <Box bg={["none", "none", "none", "white", "white"]}><AboutSection /></Box>
-        <Box bg={["rgba(255, 255, 255, .3)"]}><FacilitiesSection /></Box>
+        <Box bg={["rgba(0, 0, 0, .3)"]}><HomeSection /></Box>
+        <Box bg={["rgba(0, 0, 0, .3)"]}><AboutSection /></Box>
+        <Box bg={["rgba(0, 0, 0, .3)"]}><FacilitiesSection /></Box>
         <Box bg={["white"]}><MenuSection /></Box>
         <Box bg={["rgba(255, 204, 153, .45)"]}><GallerySection /></Box>
         <Box bg={["rgba(190, 156, 121, .55)"]}><TeamSection /></Box>
-        <Box bg={["rgba(255, 255, 255, .3)"]}><ContactSection /></Box>
+        <Box bg={["rgba(0, 0, 0, .3)"]}><ContactSection /></Box>
       </Box>
     </div>
   )
