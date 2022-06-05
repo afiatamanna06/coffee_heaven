@@ -20,12 +20,12 @@ export default function Home() {
       <Box>
         <NavigationBar />
         <Box><HomeSection /></Box>
-        <Box bg={["rgba(0, 0, 0, .3)"]}><AboutSection /></Box>
-        <Box bg={["rgba(0, 0, 0, .6)"]}><FacilitiesSection /></Box>
+        <Box bg={["none", "none", "none", "white", "white"]}><AboutSection /></Box>
+        <Box bg={["rgba(0, 0, 0, .05)"]}><FacilitiesSection /></Box>
         <Box bg={["white"]}><MenuSection /></Box>
-        <Box bg={["rgba(255, 204, 153, .8)"]}><GallerySection /></Box>
-        <Box bg={["rgba(190, 156, 121, .8)"]}><TeamSection /></Box>
-        <Box bg={["rgba(0, 0, 0, .6)"]}><ContactSection /></Box>
+        <Box bg={["rgba(255, 204, 153, .45)"]}><GallerySection /></Box>
+        <Box bg={["rgba(190, 156, 121, .55)"]}><TeamSection /></Box>
+        <Box bg={["rgba(0, 0, 0, .05)"]}><ContactSection /></Box>
       </Box>
     </div>
   )
