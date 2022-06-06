@@ -1,27 +1,27 @@
 const galleryData = [
     {
-        image: "/gallery-1.webp",
-        title: "John Deo",
+        original: "/gallery-1.webp",
+        thumbnail: "/gallery-1.webp",
     },
     {
-        image: "/gallery-2.webp",
-        title: "Robert",
+        original: "/gallery-2.webp",
+        thumbnail: "/gallery-2.webp",
     },
     {
-        image: "/gallery-3.webp",
-        title: "Annie",
+        original: "/gallery-3.webp",
+        thumbnail: "/gallery-3.webp",
     },
     {
-        image: "/gallery-4.webp",
-        title: "Harry",
+        original: "/gallery-4.webp",
+        thumbnail: "/gallery-4.webp",
     },
     {
-        image: "/gallery-5.webp",
-        title: "Emily",
+        original: "/gallery-5.webp",
+        thumbnail: "/gallery-5.webp",
     },
     {
-        image: "/gallery-6.webp",
-        title: "Jordan",
+        original: "/gallery-6.webp",
+        thumbnail: "/gallery-6.webp",
     },
 ]
 
