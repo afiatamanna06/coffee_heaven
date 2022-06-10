@@ -4,7 +4,7 @@ import contactList from './ContactList'
 
 function ContactSection() {
   return (
-    <Box display="flex" flexDir="column" alignItems="center" py="16" px="4" id="Contact" borderColor="rgba(190, 156, 121, 1)">
+    <Box display="flex" flexDir="column" alignItems="center" pt="28" pb="16" px="4" id="Contact" borderColor="rgba(190, 156, 121, 1)">
         <Header title="Contact Us" color={["rgba(255, 255, 255, 1)"]} />
         <Flex alignItems="center" direction={["column", "column", "column", "row", "row"]}>
             <Image flex="1" src="/contact-img.svg" w="700px" h="700px" alt="" />
