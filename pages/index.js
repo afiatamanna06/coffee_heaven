@@ -14,7 +14,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Coffee Heaven</title>
-        <meta name="description" content="" />
+        <meta name="description" content="A simple coffee shop website" />
         <link rel="icon" href="/logo.png" />
       </Head>
       <Box>
