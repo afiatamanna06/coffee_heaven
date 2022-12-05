@@ -10,13 +10,13 @@ function ContactSection() {
             <Image flex="1" src="/contact-img.svg" w="700px" h="700px" alt="" />
             <Flex flex="1" direction="column" alignItems="center" border="2px" borderColor="white" p="6">
                 <Box fontSize={["xl", "xl", "xl", "2xl", "2xl"]} mb="6">Book A Table</Box>
-                <Input mb="6" size="lg" borderRadius="none" border="2px" borderColor="white" color="white" w={["20rem","20rem","25rem","25rem"]} placeholder="Enter Your Name" _placeholder={{ color: "gray.400" }} _hover={{ border: "2px", borderColor: "white" }} _focus={{ outline: "none" }} _active={{ outline: "none" }}></Input>
-                <Input mb="6" size="lg" borderRadius="none" border="2px" borderColor="white" color="white" w={["20rem","20rem","25rem","25rem"]} placeholder="Enter Your Number" _placeholder={{ color: "gray.400" }} _hover={{ border: "2px", borderColor: "white" }} _focus={{ outline: "none" }} _active={{ outline: "none" }}></Input>
-                <Input mb="6" size="lg" borderRadius="none" border="2px" borderColor="white" color="white" w={["20rem","20rem","25rem","25rem"]} placeholder="How Many Guests" _placeholder={{ color: "gray.400" }} _hover={{ border: "2px", borderColor: "white" }} _focus={{ outline: "none" }} _active={{ outline: "none" }}></Input>
+                <Input mb="6" size="lg" borderRadius="none" border="2px" borderColor="white" color="white" w={["full","full","25rem","25rem"]} placeholder="Enter Your Name" _placeholder={{ color: "gray.400" }} _hover={{ border: "2px", borderColor: "white" }} _focus={{ outline: "none" }} _active={{ outline: "none" }}></Input>
+                <Input mb="6" size="lg" borderRadius="none" border="2px" borderColor="white" color="white" w={["full","full","25rem","25rem"]} placeholder="Enter Your Number" _placeholder={{ color: "gray.400" }} _hover={{ border: "2px", borderColor: "white" }} _focus={{ outline: "none" }} _active={{ outline: "none" }}></Input>
+                <Input mb="6" size="lg" borderRadius="none" border="2px" borderColor="white" color="white" w={["full","full","25rem","25rem"]} placeholder="How Many Guests" _placeholder={{ color: "gray.400" }} _hover={{ border: "2px", borderColor: "white" }} _focus={{ outline: "none" }} _active={{ outline: "none" }}></Input>
                 <Button px={8} py={4} color="white" borderRadius="none" fontWeight="normal" bg="rgba(190, 156, 121, 1)" _hover={{ bg: "rgb(238, 230, 221)", borderColor: "rgb(238, 230, 221)", color: "rgb(119, 91, 60)" }} _active={{ bg: "rgb(238, 230, 221)", borderColor: "rgb(238, 230, 221)", color: "rgb(119, 91, 60)" }} _focus={{ bg: "rgb(238, 230, 221)", borderColor: "rgb(238, 230, 221)", color: "rgb(119, 91, 60)", outline: "none" }}>Send Message</Button>
             </Flex>
         </Flex>
-        <Grid templateColumns={{ base: "repeat(2, 1fr)", sm: "repeat(2, 1fr)", md: "repeat(2, 1fr)", lg: "repeat(4, 1fr)"}} gap={24} py={16}>
+        <Grid templateColumns={{ base: "repeat(2, 1fr)", sm: "repeat(2, 1fr)", md: "repeat(2, 1fr)", lg: "repeat(4, 1fr)"}} gap={[4, 4, 24, 24]} py={16}>
             {contactList.map(({title,data,Icon}) => (       
                 <Flex key={title} alignItems="center" flexDir="column" textAlign="center">
                     <Box bg="rgba(190, 156, 121, 1)" p="5" rounded="full" mb="6" maxW="min-content"><Icon size={30} color="white" /></Box>
